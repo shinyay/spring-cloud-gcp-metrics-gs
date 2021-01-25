@@ -5,7 +5,10 @@ Cloud Monitoring collects metrics, events, and metadata from Google Cloud.
 - Black-box monitoring
   - By requesting a web page, connecting to a TCP port, or making a REST API call.
   - Cloud Monitoring provides this type of monitoring with uptime checks.
-
+- White-box monitoring
+  - You can instrument your service to write time-stamped data by using a library like OpenCensus
+  - You can write custom time-series data by using the Cloud Monitoring API
+  
 ## Description
 
 ## Demo
