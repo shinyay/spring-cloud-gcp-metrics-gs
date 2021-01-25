@@ -1,6 +1,7 @@
 # Spring Cloud GCP for Cloud Monitoring
 
-Overview
+Cloud Monitoring collects metrics, events, and metadata from Google Cloud.
+
 
 ## Description
 
