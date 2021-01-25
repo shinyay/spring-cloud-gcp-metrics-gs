@@ -11,7 +11,8 @@ Cloud Monitoring collects metrics, events, and metadata from Google Cloud.
 - Grey-box monitoring
   - Google Cloud services generate metrics that provide information about how the service is operating
     - [Google Cloud Metrics](https://cloud.google.com/monitoring/api/metrics_gcp)
-  - [Cloud Monitoring](https://cloud.google.com/monitoring/agent) agent gathers system and application metrics.
+  - Cloud Monitoring agent gathers system and application metrics.
+    - [Cloud Monitoring Agent](https://cloud.google.com/monitoring/agent)
   - Third-party plugins provide service-level data on your Linux VMs.
     - [Monitoring 3rd Party Applications](https://cloud.google.com/monitoring/agent/plugins)
   - Logs-based metrics are metrics collected from the content of logs written to Cloud Logging
