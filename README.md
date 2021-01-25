@@ -8,7 +8,9 @@ Cloud Monitoring collects metrics, events, and metadata from Google Cloud.
 - White-box monitoring
   - You can instrument your service to write time-stamped data by using a library like OpenCensus
   - You can write custom time-series data by using the Cloud Monitoring API
-  
+- Grey-box monitoring
+  - Google Cloud services generate metrics that provide information about how the service is operating
+    - [Google Cloud Metrics](https://cloud.google.com/monitoring/api/metrics_gcp)
 ## Description
 
 ## Demo
