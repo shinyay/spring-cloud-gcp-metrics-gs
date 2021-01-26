@@ -17,6 +17,9 @@ Cloud Monitoring collects metrics, events, and metadata from Google Cloud.
     - [Monitoring 3rd Party Applications](https://cloud.google.com/monitoring/agent/plugins)
   - Logs-based metrics are metrics collected from the content of logs written to Cloud Logging
 ## Description
+### Dependency
+- com.google.cloud
+  - `spring-cloud-gcp-starter-metrics`
 
 ## Demo
 
