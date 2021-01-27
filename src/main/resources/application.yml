@@ -1,1 +1,5 @@
-
+management:
+  metrics:
+    export:
+      stackdriver:
+        project-id: $GOOGLE_PROJECT_ID
