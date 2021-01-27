@@ -3,3 +3,7 @@
 #    export:
 #      stackdriver:
 #        project-id: $GOOGLE_PROJECT_ID
+management:
+  endpoint:
+    shutdown:
+      enabled: true
