@@ -21,6 +21,11 @@ Cloud Monitoring collects metrics, events, and metadata from Google Cloud.
 - com.google.cloud
   - `spring-cloud-gcp-starter-metrics`
 
+### Enable Cloud Monitoring API
+```shell script
+$ gcloud services enable monitoring.googleapis.com
+```
+
 ## Demo
 
 ## Features
