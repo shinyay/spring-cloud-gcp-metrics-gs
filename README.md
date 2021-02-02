@@ -27,6 +27,10 @@ $ gcloud services enable monitoring.googleapis.com
 ```
 
 ## Demo
+### Build Container Image
+```shell script
+$ gcloud builds submit --tag us-central1-docker.pkg.dev/(gcloud config get-value project)/shinyay-docker-repo/hello-metrics:1.0.0
+```
 
 ## Features
 
