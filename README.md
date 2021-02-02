@@ -43,7 +43,7 @@ $ gcloud run deploy hello-metrics \
 
 ### Access App with Bearer Token
 ```shell script
-$ curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" https://cloudrun.xxxxxx.run.app/
+$ curl -H "Authorization: Bearer "(gcloud auth print-identity-token)"" https://cloudrun.xxxxxx.run.app/api/v1/hello
 ```
 
 ### Open Cloud Monitoring
@@ -58,6 +58,8 @@ $ curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" https://cl
     - Container Memory Utilization / `container/memory/utilizations`
     - Request Count / `request_count`
     - Request Latency / `request_latencies`
+
+![Cloud Monitoring Image](https://user-images.githubusercontent.com/3072734/106572304-9b8ca280-657b-11eb-9622-0f395e8d88bb.png)
 
 ## Features
 
