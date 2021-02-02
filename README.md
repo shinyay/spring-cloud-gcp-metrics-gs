@@ -41,6 +41,11 @@ $ gcloud run deploy hello-metrics \
     --platform=managed
 ```
 
+### Access App with Bearer Token
+```shell script
+$ curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" https://cloudrun.xxxxxx.run.app/
+```
+
 ## Features
 
 - feature:1
