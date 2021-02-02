@@ -51,6 +51,14 @@ $ curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" https://cl
 - Click **Metrics Explorer**
   - Resource Type: `cloud_run_revision`
   - Metrics: [Cloud Run Metrics](https://cloud.google.com/monitoring/api/metrics_gcp#gcp-run)
+    - Billable Instance Time / `container/billable_instance_time`
+    - Container CPU Allocation / `container/cpu/allocation_time`
+    - Container CPU Utilization / `container/cpu/utilizations`
+    - Container Memory Allocation / `container/memory/allocation_time`
+    - Container Memory Utilization / `container/memory/utilizations`
+    - Request Count / `request_count`
+    - Request Latency / `request_latencies`
+
 ## Features
 
 - feature:1
