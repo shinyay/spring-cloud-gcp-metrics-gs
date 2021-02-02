@@ -46,6 +46,11 @@ $ gcloud run deploy hello-metrics \
 $ curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" https://cloudrun.xxxxxx.run.app/
 ```
 
+### Open Cloud Monitoring
+- Access [Cloud Monitoring](https://console.cloud.google.com/monitoring?_ga=2.260239437.1773434359.1611797762-983599867.1599137884)
+- Click **Metrics Explorer**
+  - Resource Type: `cloud_run_revision`
+  - Metrics: [Cloud Run Metrics](https://cloud.google.com/monitoring/api/metrics_gcp#gcp-run)
 ## Features
 
 - feature:1
