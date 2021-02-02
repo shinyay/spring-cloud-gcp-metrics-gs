@@ -32,6 +32,15 @@ $ gcloud services enable monitoring.googleapis.com
 $ gcloud builds submit --tag us-central1-docker.pkg.dev/(gcloud config get-value project)/shinyay-docker-repo/hello-metrics:1.0.0
 ```
 
+### Deploy App to Cloud Run
+```shell script
+$ gcloud run deploy hello-metrics \
+    --image=us-central1-docker.pkg.dev/shinyay-works-201123-296509/shinyay-docker-repo/hello-metrics:1.0.0 \
+    --no-allow-unauthenticated \
+    --memory=512Mi \
+    --platform=managed
+```
+
 ## Features
 
 - feature:1
